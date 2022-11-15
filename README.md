@@ -1,4 +1,5 @@
 # mesh-collaborative-editor
-npm install
-npm run build
-npm run watch
+## get started
+npm install <br>
+npm run build <br>
+npm run watch <br>
