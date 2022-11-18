@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Test-1</title>
+  <module href="/components/head.html"></module>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.4.1/socket.io.js"
+    integrity="sha512-MgkNs0gNdrnOM7k+0L+wgiRc5aLgl74sJQKbIWegVIMvVGPc1+gc1L2oK9Wf/D9pq58eqIJAxOonYPVE5UwUFA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+
+<body style="background: rgb(0, 0, 0); margin: 0; padding: 0;height:100%; width:100%;">
+
+  <!-- ⬇️ i'm bundle.js for no framework template, please do not ever delete me! -->
+  <script src="bundle.js" defer async></script>
+
+
+  <div class="container">
+    <!--Control Toggle-->
+    <div class="orbitControlArea">
+      <h3>//orbit control toggle</h3>
+    </div>
+    <label class="switch">
+      <input type="checkbox" id="controlToggle" unchecked>
+      <span class="slider round"></span>
+    </label>
+
+    <!--Transcription Area-->
+    <div class="transcriptionArea">
+      <h3>//transcription</h3>
+      <div id="transcript">
+        ...
+      </div>
+    </div>
+
+    <!-- WebGL context -->
+    <div id="gl_context"></div>
+
+
+
+  </div>
+
+
+  <!-- Audio Element-->
+  <!-- <audio loop controls id="myAudio"> -->
+  <audio loop id="envAudio">
+    <!-- <source src="assets/birthday.mp3" type="audio/mp3"> -->
+  </audio>
+
+  <!-- Video Element-->
+  <!-- <video id="myVideo" loop crossOrigin="anonymous" playsinline style="display:note">
+      <source src="assets/xxx.mp4" type='"video/mp4"; codecs="avc1.42E01E, mp4a.40.2"'>
+    </video>> -->
+
+  <!-- Picture Element-->
+  <!-- <img id="myPicture" src="assets/star.gif" /> -->
+
+  <!-- <div class="copyright">
+      ■direction:  W↑(or hold right mouse button) | A← | S↓ | D→ ■up and down: R | F ■view: move cursor
+    </div> -->
+
+
+</body>
+
+</html>
